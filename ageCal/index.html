@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- this is Samuel Su work on age calculator -->
+
+<body>
+    <section>
+        <div class="age">
+            <div class="header">
+                <span><h1>SU Age Calculator</h1></span>
+            </div>
+            <div class="age1">
+                <div class="name">
+                    <label for="Name" class="sam">Your Name</label> <br>
+                    <input type="text" class="samu" name="name" id="name">
+                </div>
+                <div class="cyear">
+                    <label for="cyear" class="sam">Current Year</label> <br>
+                    <input type="number" class="samu" name="cyear" id="cdate" maxlength="4">
+                </div>
+                <div class="byear">
+                    <label for="byear class="sam">Birth Year</label> <br>
+                    <input type="number" class="samu" name="bdate" id="bdate" maxlength="4">
+                </div>
+            </div>
+            <input type="button" id="btn" onclick="age()" value="submit">
+            <div id="age" class="agee"></div>
+        </div>
+    </section>
+
+    <section>
+        <footer>
+            <h3>design by <a href="https://samuelsuu.pythonanywhere.com/">Samuel Su</a></h3>
+        </footer>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
